@@ -29,6 +29,7 @@ public class TesteEnvioNaoBloqueante {
         });
         publisher.submit(primeiraNotaFiscal);
         System.out.println("Você irá receber a nota fiscal no seu e-mail");
+
         Scanner scan = new Scanner(System.in);
         scan.nextLine();
         scan.close();
